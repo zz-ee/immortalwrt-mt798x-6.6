@@ -23,7 +23,7 @@
 
 		modem-power {
 			gpio-export,name = "modem_power";
-			gpio-export,output = <1>;
+			gpio-export,output = <0>;
 			gpios = <&pio 9 GPIO_ACTIVE_LOW>;
 		};
 	};
