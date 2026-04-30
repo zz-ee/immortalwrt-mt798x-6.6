@@ -106,6 +106,7 @@ platform_do_upgrade() {
 	openwrt,one|\
 	netcore,n60|\
 	routerich,ax3000-ubootmod|\
+	ruijie,rg-x60-new-ubootmod|\
 	tplink,tl-xtr8488|\
 	wirelesstag,zx7981pd-ubootmod|\
 	zyxel,ex5601-t0-ubootmod)
@@ -125,8 +126,10 @@ platform_do_upgrade() {
 	*Airpi*|\
 	cmcc,rax3000m-emmc|\
 	bt,r320|\
+	bt,rb300|\
 	philips,hy3000|\
 	sl,3000-emmc|\
+	sn,r1|\
 	smartrg,sdg-8612|\
 	smartrg,sdg-8614|\
 	smartrg,sdg-8622|\
@@ -250,6 +253,8 @@ platform_copy_config() {
 	jdcloud,re-cp-03|\
 	sl,3000-emmc|\
 	bt,r320|\
+	bt,rb300|\
+	sn,r1|\
 	smartrg,sdg-8612|\
 	smartrg,sdg-8614|\
 	smartrg,sdg-8622|\
